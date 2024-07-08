@@ -21,4 +21,5 @@ admin.site.register(emp)
 class MemberAdmin(admin.ModelAdmin):
   list_display = ("des", "title",)
 admin.site.register(displaydata1, MemberAdmin)
+ 
 
